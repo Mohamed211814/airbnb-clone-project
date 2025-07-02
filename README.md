@@ -26,3 +26,69 @@ Docker: Used to containerize the application for consistent development and depl
 Nginx: A web server used for serving static files and as a reverse proxy for the application.
 
 Git & GitHub: Version control and collaboration tools to manage project code and track changes.
+
+
+
+Database Design:
+
+
+Entities & Key Fields
+User
+
+id: Unique identifier
+
+name: Full name of the user
+
+email: User’s email address
+
+password: Hashed password
+
+role: Defines if user is a guest or host
+
+Property
+
+id: Unique identifier
+
+title: Property name or title
+
+description: Details about the property
+
+location: Address or area
+
+owner_id: References the User who owns it
+
+Booking
+
+id: Unique identifier
+
+user_id: References the guest who booked
+
+property_id: References the booked property
+
+start_date: Booking start
+
+end_date: Booking end
+
+Review
+
+id: Unique identifier
+
+user_id: Reviewer’s ID
+
+property_id: Reviewed property ID
+
+rating: Score (e.g., 1-5)
+
+comment: Optional review text
+
+Payment
+
+id: Unique identifier
+
+booking_id: Linked booking
+
+amount: Payment total
+
+status: e.g., Paid, Pending, Failed
+
+method: e.g., Credit Card, PayPal
