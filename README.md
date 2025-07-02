@@ -1,1 +1,12 @@
-# airbnb-clone-project
+Team Roles:
+
+Discovery/PoC :
+Product owner (usually on the client’s side), project manager, business analyst, UI/UX designer, and at least one software developer, depending on the complexity of a PoC.
+
+MVP development :
+Product owner (usually on the client’s side), project manager, business analyst, UI/UX designer, software engineers, test engineers
+
+Product development :
+Product owner (usually on the client’s side), project manager, business analyst, UI/UX designer, software architect, software engineers, test engineers.
+
+Optionally: test automation engineers, performance engineers, DevOps engineers, security engineers
