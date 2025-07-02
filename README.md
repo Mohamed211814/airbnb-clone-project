@@ -114,3 +114,42 @@ Secure payment processing for bookings. Supports tracking of payment status, met
 
 Search & Filtering
 Users can search properties by location, availability, price range, and other filters. This improves the user experience by helping them find suitable options quickly.
+
+
+
+API Security:
+
+To protect sensitive data and ensure safe interactions within the Airbnb Clone project, the following security measures will be implemented:
+
+Authentication
+Users must log in using secure credentials (e.g., JWT-based authentication). This ensures only verified users can access protected routes, helping protect personal data and prevent identity misuse.
+
+Authorization
+Role-based access control restricts what actions users can perform (e.g., only hosts can manage properties). This prevents unauthorized access to sensitive operations like modifying listings or viewing other users’ bookings.
+
+Rate Limiting
+Limits the number of API requests from a single IP over time. This prevents abuse, brute-force attacks, and helps maintain the stability of the service.
+
+Data Validation & Sanitization
+All incoming data is validated and cleaned to prevent SQL injection, XSS, and other injection attacks. This protects both users and the backend systems from malicious input.
+
+HTTPS Enforcement
+All communication with the API will be encrypted using HTTPS to prevent man-in-the-middle attacks and secure the transmission of sensitive data like login credentials and payment information.
+
+
+
+CI/CD Pipeline:
+
+CI/CD (Continuous Integration and Continuous Deployment) is a development practice that automates the process of testing, building, and deploying code. It helps ensure that every change made to the codebase is automatically verified and safely delivered to production.
+
+Implementing a CI/CD pipeline improves code quality, reduces bugs, and accelerates development by catching issues early and enabling fast, reliable releases.
+
+Tools Used:
+
+GitHub Actions: Automates testing, linting, and deployment workflows directly from the repository.
+
+Docker: Ensures consistency by packaging the app and its dependencies into portable containers.
+
+Docker Hub / GitHub Container Registry: Stores and manages container images for deployment.
+
+Cloud Hosting Services (e.g., Heroku, AWS, Render): Automatically deploy updated builds.
