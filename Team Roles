@@ -1,16 +1,13 @@
-Team Roles : 
+Team Roles:
 
+Discovery/PoC :
+Product owner (usually on the client’s side), project manager, business analyst, UI/UX designer, and at least one software developer, depending on the complexity of a PoC.
 
-Backend Developer: Builds server-side logic and API integrations.
+MVP development :
+Product owner (usually on the client’s side), project manager, business analyst, UI/UX designer, software engineers, test engineers
 
-Database Administrator: Manages database structure, security, and performance.
+Product development :
+Product owner (usually on the client’s side), project manager, business analyst, UI/UX designer, software architect, software engineers, test engineers.
 
-Frontend Developer: Develops the user interface and ensures responsiveness.
+Optionally: test automation engineers, performance engineers, DevOps engineers, security engineers
 
-Project Manager: Coordinates the team and ensures timely delivery.
-
-QA Engineer: Tests the product to catch bugs and ensure quality.
-
-DevOps Engineer: Manages deployment, CI/CD, and infrastructure.
-
-Business Analyst: Gathers requirements and aligns the project with business goals.
