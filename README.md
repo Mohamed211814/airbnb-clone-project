@@ -92,3 +92,25 @@ amount: Payment total
 status: e.g., Paid, Pending, Failed
 
 method: e.g., Credit Card, PayPal
+
+
+
+Feature Breakdown:
+
+User Management
+Allows users to register, log in, and manage their profiles. The system supports different roles (e.g., guest and host), each with specific permissions and access levels.
+
+Property Management
+Hosts can list properties with details such as title, description, photos, location, and pricing. They can also update or delete their listings at any time.
+
+Booking System
+Guests can search for properties, view availability, and book stays. The system ensures that booking dates do not overlap and that properties are reserved in real time.
+
+Review & Rating
+After a stay, guests can leave reviews and ratings for properties. This helps future users make informed decisions and encourages quality hosting.
+
+Payment Integration
+Secure payment processing for bookings. Supports tracking of payment status, methods, and transaction history.
+
+Search & Filtering
+Users can search properties by location, availability, price range, and other filters. This improves the user experience by helping them find suitable options quickly.
