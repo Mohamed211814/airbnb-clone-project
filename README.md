@@ -1,3 +1,48 @@
+🖌️ UI/UX Design Planning
+🎯 Design Goals
+Our primary design goals for the Airbnb Clone UI/UX are:
+
+Ensure ease of navigation and an intuitive experience for users.
+
+Create a visually clean and responsive interface across devices.
+
+Make it simple to browse, explore, and book properties.
+
+Reduce friction throughout the checkout process.
+
+Provide clear, consistent visual hierarchy and feedback.
+
+🔑 Key Features to Implement
+Property search with filters (location, price, amenities, etc.)
+
+Grid-based property listing layout
+
+Detailed property view with images and booking options
+
+Secure, streamlined checkout flow
+
+Responsive design (desktop, tablet, mobile)
+
+Error handling and user feedback notifications
+
+📄 Primary Pages Overview
+Page Name	Description
+Property Listing View	Displays multiple property cards with image, title, price, rating, and a “View More” button. Includes search/filter options.
+Listing Detailed View	Shows property details such as description, host info, amenities, availability calendar, and reviews.
+Simple Checkout View	A minimal and focused checkout form. Includes date selection, pricing summary, payment input, and a confirm button.
+
+🤝 Why User-Friendly Design Matters
+A user-friendly design is essential in a booking system because:
+
+It reduces abandonment rates by making actions simple and predictable.
+
+It builds user trust through consistent design patterns.
+
+It encourages repeat usage and referrals through positive experience.
+
+It allows users to quickly accomplish their goal — finding and booking a place to stay — without confusion or delay.
+
+
 Team Roles:
 
 Discovery/PoC :
